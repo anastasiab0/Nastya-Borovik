@@ -1,0 +1,12 @@
+﻿  курсач 4 курс.cpp
+C:\Users\Asus\source\repos\курсач 4 курс\курсач 4 курс\курсач 4 курс.cpp(66,23): error C2664: "void Set<int>::add(T &)": невозможно преобразовать аргумент 1 из "const int" в "T &"
+          with
+          [
+              T=int
+          ]
+C:\Users\Asus\source\repos\курсач 4 курс\курсач 4 курс\курсач 4 курс.cpp(66,28): message : В результате преобразования теряются квалификаторы
+C:\Users\Asus\source\repos\курсач 4 курс\курсач 4 курс\курсач 4 курс.cpp(19,10): message : см. объявление "Set<int>::add"
+C:\Users\Asus\source\repos\курсач 4 курс\курсач 4 курс\курсач 4 курс.cpp(66,23): message : при попытке сопоставить список аргументов "(const int)"
+C:\Users\Asus\source\repos\курсач 4 курс\курсач 4 курс\курсач 4 курс.cpp(62,12): message : во время компиляции функции-члена класс шаблон "Set<int> Set<int>::difference(const Set<int> &) const"
+C:\Users\Asus\source\repos\курсач 4 курс\курсач 4 курс\курсач 4 курс.cpp(182,33): message : см. первую ссылку на "Set<int>::difference" в "main"
+C:\Users\Asus\source\repos\курсач 4 курс\курсач 4 курс\курсач 4 курс.cpp(132,14): message : выполняется компиляция ссылки на экземпляр класс шаблон функции "Set<int>"
